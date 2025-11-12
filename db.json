@@ -22,7 +22,7 @@
       "description": "Implémenter les trois colonnes du tableau",
       "status": "todo",
       "createdAt": "2025-09-19T12:00:00Z",
-      "order": 2
+      "order": 1
     },
     {
       "id": "26f3",
@@ -36,11 +36,11 @@
       "id": "8172",
       "title": "test",
       "description": "test",
-      "status": "inprogress",
+      "status": "todo",
       "priority": "medium",
       "createdDate": "11/11/2025",
       "createdAt": "2025-11-11T20:33:32.977Z",
-      "order": 2
+      "order": 1
     },
     {
       "id": "276e",
