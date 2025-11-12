@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/tasks';
+const API_URL = 'http://localhost:3001/tasks';
 
 // Récupère toutes les tâches
 export const getTasks = async () => {
