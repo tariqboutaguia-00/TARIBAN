@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom hover effects for task cards */
+.task-card-hover {
+  transition: all 0.3s ease;
+}
+
+.task-card-hover:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: #3b82f6;
+}
+
+/* Drag and drop styles */
+.task-card-hover:active {
+  cursor: grabbing !important;
+}
+
+/* Smooth transitions for drag and drop */
+* {
+  box-sizing: border-box;
+}
+
+/* Améliorer l'apparence pendant le drag */
+[data-rbd-drag-handle-draggable-id] {
+  transition: none !important;
+}
+
+/* Animation pour le spinner */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

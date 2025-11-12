@@ -1,0 +1,55 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Écrire le README",
+      "description": "Rédiger un README initial pour le projet Kanban",
+      "status": "done",
+      "createdAt": "2025-09-19T10:00:00Z",
+      "order": 2
+    },
+    {
+      "id": "2",
+      "title": "Préparer l'environnement",
+      "description": "Installer dépendances et initialiser Vite\nConfigurer JSon server",
+      "status": "inprogress",
+      "createdAt": "2025-09-19T11:00:00Z",
+      "order": 1
+    },
+    {
+      "id": "3",
+      "title": "Créer le tableau Kanban",
+      "description": "Implémenter les trois colonnes du tableau",
+      "status": "todo",
+      "createdAt": "2025-09-19T12:00:00Z",
+      "order": 2
+    },
+    {
+      "id": "26f3",
+      "title": "Rajouter des amélioration de Style UI",
+      "description": "trouver des templates sur tailwind",
+      "status": "inprogress",
+      "createdAt": "2025-11-11T18:04:47.530Z",
+      "order": 2
+    },
+    {
+      "id": "8172",
+      "title": "test",
+      "description": "test",
+      "status": "inprogress",
+      "priority": "medium",
+      "createdDate": "11/11/2025",
+      "createdAt": "2025-11-11T20:33:32.977Z",
+      "order": 2
+    },
+    {
+      "id": "276e",
+      "title": "test23",
+      "description": "",
+      "status": "done",
+      "createdDate": "12/11/2025",
+      "createdAt": "2025-11-12T13:04:25.041Z",
+      "order": 2
+    }
+  ]
+}
